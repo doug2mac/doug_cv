@@ -109,23 +109,9 @@ CV %<>% print_section('education')
 
 
 
-Research Experience {data-icon=laptop}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('research_positions')
-```
-
-
 
 Industry Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
-
-::: aside
-```{r}
-CV %<>% print_text_block('industy_experience_aside')
-```
-:::
 
 ```{r}
 CV %<>% print_section('industry_positions')
@@ -153,6 +139,12 @@ CV %<>% print_section('presentations')
 <br>
 <br>
 
+Research Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('research_positions')
+```
 
 Certifications, Skills, and Volunteer Work {data-icon=chart-line}
 --------------------------------------------------------------------------------
